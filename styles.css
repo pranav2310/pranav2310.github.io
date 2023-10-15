@@ -1,0 +1,231 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #485563;
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #29323c, #485563); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#333, BLACK, #333);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    /* Increase header font size for impact */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.forum {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    /* Add rounded corners to the forum section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
+    background-blend-mode: lighten;
+}
+
+.createpost {
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    /* Add rounded corners to the forum section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
+    background-blend-mode: lighten;
+}
+
+.post {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    /* Add rounded corners to the posts */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* Add a slight shadow to the posts */
+}
+
+h2 {
+    font-size: 1.5rem;
+    /* Increase post title font size for emphasis */
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    /* Increase margin for better readability */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    /* Add rounded corners to buttons */
+
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%);
+    /* margin: 10px;
+    padding: 15px 45px; */
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    /* display: block; */
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.block{
+    display: block;
+    margin-top: -5px;
+}
+
+button.vote {
+    font-size: 14px;
+    padding: 3px 6px;
+}
+
+/*.votess{
+}*/
+
+span.vote {
+    font-size: 16px;
+    padding: 2px;
+
+}
+
+button:hover {
+    background-color: #555;
+    /* Change button color on hover */
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    /* Increase padding for better input field appearance */
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /* Increase margin for better spacing */
+    border-radius: 5px;
+    /* Add rounded corners to input fields */
+}
+
+#editor{
+    width: 75%;
+    padding: 10px;
+    background-color: #fff;
+    /* Increase padding for better input field appearance */
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    /* Increase margin for better spacing */
+    border-radius: 5px;
+    /* Add rounded corners to input fields */
+}
+
+input#post-content {
+    width: 50%;
+    height: 50px;
+}
+
+input#post-title {
+    margin-left: 30px;
+}
+
+input#post-author {
+    margin-left: 10px;
+}
+
+label {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Style for the comment section */
+ul li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    /* Increase padding for better comment appearance */
+    margin-bottom: 10px;
+    /* Increase margin for better spacing */
+    border-radius: 5px;
+    /* Add rounded corners to comments */
+}
+
+/* Style for the create post form */
+#create-post-form {
+    margin-top: 20px;
+    align-items: center;
+}
+
+/* Optional: Style for the My Posts and Home buttons (if you decide to add them later) */
+#my-posts-button,
+#home-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Add rounded corners to buttons */
+}
+
+/* Optional: Add hover effect to buttons */
+#my-posts-button:hover,
+#home-button:hover {
+    background-color: #555;
+}
